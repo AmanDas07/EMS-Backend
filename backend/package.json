@@ -4,10 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm run dev --prefix client",
-    "dev": "concurrently \"npm start\" \"npm run client\"   "
+    "start": "node index.js"
   },
   "author": "Aman das",
   "license": "ISC",
@@ -24,7 +21,6 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.4",
     "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.1.0"
+    "multer": "^1.4.5-lts.1"
   }
 }
